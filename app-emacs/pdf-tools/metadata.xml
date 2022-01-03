@@ -5,5 +5,5 @@
 		<email>gentoo@jonglieren-jena.de</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Support library for PDF documents.</longdescription>
+	<longdescription>Support library for PDF documents</longdescription>
 </pkgmetadata>

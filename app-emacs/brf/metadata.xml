@@ -5,5 +5,5 @@
 		<email>gentoo@jonglieren-jena.de</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Add functionality from the editor Brief</longdescription>
+	<longdescription>Brf-mode provides features from the legendary editor Brief</longdescription>
 </pkgmetadata>
