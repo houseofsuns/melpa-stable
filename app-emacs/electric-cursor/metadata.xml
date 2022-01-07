@@ -5,5 +5,5 @@
 		<email>gentoo@jonglieren-jena.de</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Perform code review from Github, Gitlab, and Bitbucket Cloud</longdescription>
+	<longdescription>Change cursor automatically</longdescription>
 </pkgmetadata>
