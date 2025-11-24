@@ -21,7 +21,6 @@ KEYWORDS="~amd64 ~x86"
 DEPEND="app-emacs/async
 	app-emacs/dash
 	app-emacs/f
-	app-emacs/ht
 	app-emacs/memoize
 	app-emacs/plz
 	app-emacs/s
@@ -29,7 +28,6 @@ DEPEND="app-emacs/async
 RDEPEND="app-emacs/async
 	app-emacs/dash
 	app-emacs/f
-	app-emacs/ht
 	app-emacs/memoize
 	app-emacs/plz
 	app-emacs/s
