@@ -20,9 +20,7 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/popup
 	app-emacs/unicode-escape
-	app-emacs/deferred
-	app-emacs/mozc"
+	app-emacs/deferred"
 RDEPEND="app-emacs/popup
 	app-emacs/unicode-escape
-	app-emacs/deferred
-	app-emacs/mozc"
+	app-emacs/deferred"
