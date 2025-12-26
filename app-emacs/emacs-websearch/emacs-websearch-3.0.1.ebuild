@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Query search engines"
 
-HOMEPAGE="https://gitlab.com/xgqt/emacs-websearch/"
+HOMEPAGE="https://gitlab.com/xgqt/xgqt-elisp-lib-websearch"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
