@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A collection of org-roam note-taking functions</longdescription>
+	<longdescription>A collection of note-taking functions</longdescription>
 </pkgmetadata>

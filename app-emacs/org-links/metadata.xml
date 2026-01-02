@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Better manage line numbers in your org-mode links</longdescription>
+	<longdescription>Better manage line numbers in links of Org mode</longdescription>
 </pkgmetadata>

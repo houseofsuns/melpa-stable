@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Display track description and playing time in the mode line</longdescription>
+	<longdescription>Display EMMS track description and playing time in the mode line</longdescription>
 </pkgmetadata>
