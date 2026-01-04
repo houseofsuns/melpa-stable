@@ -18,13 +18,15 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/org-edna
+DEPEND="app-emacs/compat
+	app-emacs/org-edna
 	app-emacs/f
 	app-emacs/org-mode
-	app-emacs/org-agenda-property
-	app-emacs/transient"
-RDEPEND="app-emacs/org-edna
+	app-emacs/transient
+	app-emacs/dag-draw"
+RDEPEND="app-emacs/compat
+	app-emacs/org-edna
 	app-emacs/f
 	app-emacs/org-mode
-	app-emacs/org-agenda-property
-	app-emacs/transient"
+	app-emacs/transient
+	app-emacs/dag-draw"

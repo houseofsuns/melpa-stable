@@ -1,13 +1,13 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/org-edna app-emacs/f app-emacs/org-mode app-emacs/org-agenda-property app-emacs/transient
+DEPEND=app-emacs/compat app-emacs/org-edna app-emacs/f app-emacs/org-mode app-emacs/transient app-emacs/dag-draw
 DESCRIPTION=An implementation of GTD
 EAPI=8
 HOMEPAGE=https://github.com/Trevoke/org-gtd.el
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/org-edna app-emacs/f app-emacs/org-mode app-emacs/org-agenda-property app-emacs/transient >=app-editors/emacs-25.3:*
+RDEPEND=app-emacs/compat app-emacs/org-edna app-emacs/f app-emacs/org-mode app-emacs/transient app-emacs/dag-draw >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/org-gtd-3.0.0.tar
+SRC_URI=https://stable.melpa.org/packages/org-gtd-4.0.0.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=156b129e79c6016ac46f7d97ec35eb47
+_md5_=aa603e1676609e800f69cf6f1207ef66
