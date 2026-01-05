@@ -5,22 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="ede-php-autoload-drupal"
+REALNAME="pass-coffin"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Drupal support for ede-php-autoload"
+DESCRIPTION="Interface to \"pass coffin\""
 
-HOMEPAGE="https://github.com/xendk/ede-php-autoload-drupal"
+HOMEPAGE="https://codeberg.org/rch/emacs-pass-coffin"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/ede-php-autoload
-	app-emacs/f
-	app-emacs/s"
-RDEPEND="app-emacs/ede-php-autoload
-	app-emacs/f
-	app-emacs/s"
+DEPEND=""
+RDEPEND=""

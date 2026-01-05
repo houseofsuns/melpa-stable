@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="helm-rubygems-org"
+REALNAME="go-template-helper-mode"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Use helm to search rubygems.org"
+DESCRIPTION="Overlay Go template highlighting"
 
-HOMEPAGE="https://github.com/neomantic/helm-rubygems-org"
+HOMEPAGE="https://codeberg.org/rch/go-template-helper-mode"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/helm"
-RDEPEND="app-emacs/helm"
+DEPEND=""
+RDEPEND=""

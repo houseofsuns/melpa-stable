@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Drupal support for ede-php-autoload</longdescription>
+	<longdescription>Interface to "pass coffin"</longdescription>
 </pkgmetadata>
