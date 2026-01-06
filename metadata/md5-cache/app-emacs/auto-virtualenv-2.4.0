@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/eglot
-DESCRIPTION=Eglot preset for Python
+DESCRIPTION=Automatically activate Python virtualenvs based on project directory
 EAPI=8
-HOMEPAGE=https://github.com/mwolson/eglot-python-preset
+HOMEPAGE=https://github.com/marcwebbie/auto-virtualenv
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/eglot >=app-editors/emacs-25.3:*
+RDEPEND=>=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/eglot-python-preset-0.2.1.tar
+SRC_URI=https://stable.melpa.org/packages/auto-virtualenv-2.4.0.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=34f611d153234e4264f317b472585d4a
+_md5_=e2efbe0044cc88c8ecb0f6b5680dee1a
