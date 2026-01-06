@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/flyspell-correct app-emacs/ivy
-DESCRIPTION=Correcting words with flyspell via ivy interface
+DESCRIPTION=Open git repository in browser
 EAPI=8
-HOMEPAGE=https://github.com/d12frosted/flyspell-correct
+HOMEPAGE=https://github.com/swarnimcodes/turepo
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/flyspell-correct app-emacs/ivy >=app-editors/emacs-25.3:*
+RDEPEND=>=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/flyspell-correct-ivy-0.6.1.tar
+SRC_URI=https://stable.melpa.org/packages/turepo-0.2.0.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=72027aceeadb1a885e4081eaedb7ffac
+_md5_=836f20cf0d5398743cfc2dd166ac4cb4
