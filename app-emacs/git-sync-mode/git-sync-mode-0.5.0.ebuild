@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="pact-mode"
+REALNAME="git-sync-mode"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Mode for Pact, a LISPlike smart contract language"
+DESCRIPTION="Sync your git repositories on save"
 
-HOMEPAGE="https://github.com/kadena-io/pact-mode"
+HOMEPAGE="https://github.com/justinbarclay/git-sync-mode"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/async-await"
+RDEPEND="app-emacs/async-await"

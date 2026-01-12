@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Unified interface for multiple AI coding CLI tool"
+DESCRIPTION="Unified interface for AI coding CLI tool such as Codex, Copilot CLI, Opencode, Grok CLI, etc"
 
 HOMEPAGE="https://github.com/tninja/ai-code-interface.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

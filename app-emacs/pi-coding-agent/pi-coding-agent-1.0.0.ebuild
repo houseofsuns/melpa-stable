@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="parrot"
+REALNAME="pi-coding-agent"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Party Parrot rotates gracefully in mode-line"
+DESCRIPTION="Emacs frontend for pi coding agent"
 
-HOMEPAGE="https://github.com/dp12/parrot.git"
+HOMEPAGE="https://github.com/dnouri/pi.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/markdown-mode"
+RDEPEND="app-emacs/markdown-mode"
