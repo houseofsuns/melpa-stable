@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Search and navigate via completing-read</longdescription>
+	<longdescription>Visual timeline for Org-Roam nodes</longdescription>
 </pkgmetadata>

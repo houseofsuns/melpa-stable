@@ -5,18 +5,22 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="consult"
+REALNAME="difftastic"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Consulting completing-read"
+DESCRIPTION="Wrapper for difftastic"
 
-HOMEPAGE="https://github.com/minad/consult"
+HOMEPAGE="https://github.com/pkryger/difftastic.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/compat"
-RDEPEND="app-emacs/compat"
+DEPEND="app-emacs/compat
+	app-emacs/magit
+	app-emacs/transient"
+RDEPEND="app-emacs/compat
+	app-emacs/magit
+	app-emacs/transient"
