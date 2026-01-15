@@ -5,18 +5,20 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="selected-window-contrast"
+REALNAME="nael-lsp"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Highlight by brightness of text and background"
+DESCRIPTION="Nael and lsp-mode"
 
-HOMEPAGE="https://github.com/Anoncheg1/selected-window-contrast"
+HOMEPAGE="https://codeberg.org/mekeor/nael"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/lsp-mode
+	app-emacs/nael"
+RDEPEND="app-emacs/lsp-mode
+	app-emacs/nael"
