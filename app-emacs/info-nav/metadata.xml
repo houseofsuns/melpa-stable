@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Notifications when commands complete in term.el and eat</longdescription>
+	<longdescription>Browse info docs with a 2 pane layout</longdescription>
 </pkgmetadata>

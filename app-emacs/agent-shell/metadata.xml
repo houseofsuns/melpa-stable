@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>A single native shell experience to interact with agentic providers (Claude Code, Cursor, Gemini CLI, Goose, Codex, OpenCode, Qwen, etc.)</longdescription>
+	<longdescription>Native agentic integrations for Claude Code, Gemini CLI, etc</longdescription>
 </pkgmetadata>

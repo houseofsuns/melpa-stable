@@ -5,20 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="consult-flycheck"
+REALNAME="info-nav"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Provides the command \`consult-flycheck'"
+DESCRIPTION="Browse info docs with a 2 pane layout"
 
-HOMEPAGE="https://github.com/minad/consult"
+HOMEPAGE="https://codeberg.org/ggxx/info-nav"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/consult
-	app-emacs/flycheck"
-RDEPEND="app-emacs/consult
-	app-emacs/flycheck"
+DEPEND=""
+RDEPEND=""

@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A single native shell experience to interact with agentic providers (Claude Code, Cursor, Gemini CLI, Goose, Codex, OpenCode, Qwen, etc.)"
+DESCRIPTION="Native agentic integrations for Claude Code, Gemini CLI, etc"
 
 HOMEPAGE="https://github.com/xenodium/agent-shell"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
