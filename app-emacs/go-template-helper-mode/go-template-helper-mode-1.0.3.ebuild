@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="hindent"
+REALNAME="go-template-helper-mode"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Indent haskell code using the \"hindent\" program"
+DESCRIPTION="Go text/template overlay highlighting (Helm/YAML)"
 
-HOMEPAGE="https://github.com/chrisdone/hindent"
+HOMEPAGE="https://codeberg.org/rch/go-template-helper-mode"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

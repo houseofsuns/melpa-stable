@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Go text/template overlay highlighting (Helm/YAML)</longdescription>
+	<longdescription>Major mode for editing Ultisnips snippets</longdescription>
 </pkgmetadata>

@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="go-template-helper-mode"
+REALNAME="mu4e-llm"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Overlay Go template highlighting"
+DESCRIPTION="AI-powered email assistance for mu4e"
 
-HOMEPAGE="https://codeberg.org/rch/go-template-helper-mode"
+HOMEPAGE="https://github.com/sillyfellow/mu4e-llm"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/llm"
+RDEPEND="app-emacs/llm"
