@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A collection of note-taking functions"
+DESCRIPTION="Note management library for Org mode"
 
 HOMEPAGE="https://github.com/d12frosted/vulpea"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
