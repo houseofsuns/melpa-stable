@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="goto-char-preview"
+REALNAME="goto-line-preview"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Preview character when executing \`goto-char\` command"
+DESCRIPTION="Preview line when executing \`goto-line\` command"
 
-HOMEPAGE="https://github.com/jcs-elpa/goto-char-preview"
+HOMEPAGE="https://github.com/emacs-vs/goto-line-preview"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
