@@ -5,22 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="org-node-fakeroam"
+REALNAME="ttl-mode"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Deprecated extension to org-node"
+DESCRIPTION="Mode for Turtle (and Notation 3)"
 
-HOMEPAGE="https://github.com/meedstrom/org-node-fakeroam"
+HOMEPAGE="https://github.com/emacsattic/ttl-mode"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/org-mem
-	app-emacs/org-node
-	app-emacs/org-roam"
-RDEPEND="app-emacs/org-mem
-	app-emacs/org-node
-	app-emacs/org-roam"
+DEPEND=""
+RDEPEND=""
