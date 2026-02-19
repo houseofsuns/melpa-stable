@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Large Table Edition in Org and Markdown buffers"
 
-HOMEPAGE="http://github.com/fredericgiquel/lte.el"
+HOMEPAGE="https://github.com/fredericgiquel/lte.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

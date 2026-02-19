@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="A prompt for replace-string and query-replace"
 
-HOMEPAGE="http://github.com/szermatt/visual-replace"
+HOMEPAGE="https://github.com/szermatt/visual-replace"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

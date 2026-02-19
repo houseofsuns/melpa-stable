@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Major mode for OCaml code"
 
-HOMEPAGE="http://github.com/bbatsov/neocaml"
+HOMEPAGE="https://github.com/bbatsov/neocaml"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

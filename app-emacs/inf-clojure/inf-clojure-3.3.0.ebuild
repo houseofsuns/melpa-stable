@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Basic interaction with a Clojure REPL"
 
-HOMEPAGE="http://github.com/clojure-emacs/inf-clojure"
+HOMEPAGE="https://github.com/clojure-emacs/inf-clojure"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

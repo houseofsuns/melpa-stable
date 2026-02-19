@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Work with conda-project environments"
 
-HOMEPAGE="http://github.com/gilbertwong96/conda-project.el"
+HOMEPAGE="https://github.com/gilbertwong96/conda-project.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

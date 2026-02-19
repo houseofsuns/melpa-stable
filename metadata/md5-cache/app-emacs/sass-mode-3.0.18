@@ -3,11 +3,11 @@ DEFINED_PHASES=compile configure info install postinst postrm prepare setup test
 DEPEND=app-emacs/haml-mode
 DESCRIPTION=Major mode for editing Sass files
 EAPI=8
-HOMEPAGE=http://github.com/nex3/haml/tree/master
+HOMEPAGE=https://github.com/nex3/haml/tree/master
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
 RDEPEND=app-emacs/haml-mode >=app-editors/emacs-25.3:*
 SLOT=0
 SRC_URI=https://stable.melpa.org/packages/sass-mode-3.0.18.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=07524f83cbbbf0d41eb51adaa88c2ba4
+_md5_=548f8c6f7d10f4ebeef9d8aa2e515efc

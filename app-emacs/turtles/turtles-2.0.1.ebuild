@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Screen-grabbing test utility"
 
-HOMEPAGE="http://github.com/szermatt/turtles"
+HOMEPAGE="https://github.com/szermatt/turtles"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

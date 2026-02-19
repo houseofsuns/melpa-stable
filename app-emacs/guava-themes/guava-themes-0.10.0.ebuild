@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="A pack of plant-inspired themes"
 
-HOMEPAGE="http://github.com/bormoge/guava-themes"
+HOMEPAGE="https://github.com/bormoge/guava-themes"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
