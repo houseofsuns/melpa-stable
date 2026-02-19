@@ -12,11 +12,11 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="On-the-fly syntax checking"
 
-HOMEPAGE="https://www.flycheck.org"
+HOMEPAGE="https://github.com/flycheck/flycheck"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/seq"
+RDEPEND="app-emacs/seq"
