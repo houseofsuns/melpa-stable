@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="persist-state"
+REALNAME="cal-china-x"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Regularly persist bookmarks, history, recent files and more"
+DESCRIPTION="Chinese localization, lunar/horoscope/zodiac info and more.."
 
-HOMEPAGE="https://codeberg.org/bram85/emacs-persist-state.git"
+HOMEPAGE="https://github.com/xwl/cal-china-x"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
