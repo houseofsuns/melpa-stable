@@ -1,13 +1,13 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
 DEPEND=app-emacs/transient app-emacs/magit
-DESCRIPTION=Unified interface for AI coding backends such as Claude Code, Codex CLI, Gemini CLI, Copilot CLI, Opencode, Grok CLI, Aider CLI, agent-shell, etc
+DESCRIPTION=Unified interface for AI coding backends such as Claude Code, Codex CLI, Gemini CLI, Copilot CLI, Opencode, Grok CLI, Aider CLI, etc
 EAPI=8
 HOMEPAGE=https://github.com/tninja/ai-code-interface.el
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
 RDEPEND=app-emacs/transient app-emacs/magit >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/ai-code-1.51.tar
+SRC_URI=https://stable.melpa.org/packages/ai-code-1.52.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=59a43fe8d0b102b6033377b989f40817
+_md5_=5c01d3152647e2e575a3ad31f90d9eff

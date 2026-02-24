@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="AI-LLM blocks for org-mode"
+DESCRIPTION="AI-LLM chat blocks for org-mode"
 
 HOMEPAGE="https://github.com/Anoncheg1/emacs-oai"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

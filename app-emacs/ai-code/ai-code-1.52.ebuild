@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Unified interface for AI coding backends such as Claude Code, Codex CLI, Gemini CLI, Copilot CLI, Opencode, Grok CLI, Aider CLI, agent-shell, etc"
+DESCRIPTION="Unified interface for AI coding backends such as Claude Code, Codex CLI, Gemini CLI, Copilot CLI, Opencode, Grok CLI, Aider CLI, etc"
 
 HOMEPAGE="https://github.com/tninja/ai-code-interface.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
