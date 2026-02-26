@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Jump to definition for 50+ languages without configuration"
+DESCRIPTION="Jump to definition for 60+ languages without configuration"
 
 HOMEPAGE="https://github.com/jacktasia/dumb-jump"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,9 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/s
-	app-emacs/dash
-	app-emacs/popup"
-RDEPEND="app-emacs/s
-	app-emacs/dash
-	app-emacs/popup"
+DEPEND="app-emacs/dash"
+RDEPEND="app-emacs/dash"

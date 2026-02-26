@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="An unofficial Copilot plugin"
+DESCRIPTION="An Emacs plugin for GitHub Copilot"
 
 HOMEPAGE="https://github.com/copilot-emacs/copilot.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -20,9 +20,9 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/editorconfig
 	app-emacs/jsonrpc
-	app-emacs/f
+	app-emacs/compat
 	app-emacs/track-changes"
 RDEPEND="app-emacs/editorconfig
 	app-emacs/jsonrpc
-	app-emacs/f
+	app-emacs/compat
 	app-emacs/track-changes"
