@@ -1,13 +1,13 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/shell-maker app-emacs/acp
-DESCRIPTION=Native agentic integrations for Claude Code, Gemini CLI, etc
+DEPEND=app-emacs/llama app-emacs/magit-section app-emacs/org-mem
+DESCRIPTION=Fast org-roam replacement
 EAPI=8
-HOMEPAGE=https://github.com/xenodium/agent-shell
+HOMEPAGE=https://github.com/meedstrom/org-node
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/shell-maker app-emacs/acp >=app-editors/emacs-25.3:*
+RDEPEND=app-emacs/llama app-emacs/magit-section app-emacs/org-mem >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/agent-shell-0.42.1.tar
+SRC_URI=https://stable.melpa.org/packages/org-node-3.17.0.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=0bbe74ab78752293a84e3655388fdbf3
+_md5_=21cd56eb444c7a7db6500134f8fc0de8

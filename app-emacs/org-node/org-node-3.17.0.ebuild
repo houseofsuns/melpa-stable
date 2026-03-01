@@ -19,8 +19,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/llama
-	app-emacs/org-mem
-	app-emacs/magit-section"
+	app-emacs/magit-section
+	app-emacs/org-mem"
 RDEPEND="app-emacs/llama
-	app-emacs/org-mem
-	app-emacs/magit-section"
+	app-emacs/magit-section
+	app-emacs/org-mem"
