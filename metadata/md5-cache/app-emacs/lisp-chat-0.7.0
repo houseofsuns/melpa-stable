@@ -1,12 +1,13 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=TOML (Tom's Obvious, Minimal Language) parser
+DEPEND=app-emacs/websocket
+DESCRIPTION=Emacs client for Lisp Chat
 EAPI=8
-HOMEPAGE=https://github.com/gongo/emacs-toml
+HOMEPAGE=https://github.com/ryukinix/lisp-chat
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=>=app-editors/emacs-25.3:*
+RDEPEND=app-emacs/websocket >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/toml-0.3.1.tar
+SRC_URI=https://stable.melpa.org/packages/lisp-chat-0.7.0.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=54dee56dc4964efad0a0c9cbccfa99a4
+_md5_=64cccb8ba5cbf32a1ab766a0d8b89889
