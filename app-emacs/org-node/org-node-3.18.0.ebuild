@@ -18,9 +18,11 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/llama
+DEPEND="app-emacs/cond-let
+	app-emacs/llama
 	app-emacs/magit-section
 	app-emacs/org-mem"
-RDEPEND="app-emacs/llama
+RDEPEND="app-emacs/cond-let
+	app-emacs/llama
 	app-emacs/magit-section
 	app-emacs/org-mem"
