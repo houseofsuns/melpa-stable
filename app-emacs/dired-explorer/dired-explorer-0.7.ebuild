@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="codespaces"
+REALNAME="dired-explorer"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Connect to GitHub Codespaces via TRAMP"
+DESCRIPTION="Provide Explorer-like file selection in Dired"
 
-HOMEPAGE="https://github.com/patrickt/codespaces.el"
+HOMEPAGE="https://github.com/jidaikobo-shibata/dired-explorer"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

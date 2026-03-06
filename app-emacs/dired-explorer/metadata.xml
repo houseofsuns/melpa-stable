@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Minor-mode provides Explorer like select file at dired</longdescription>
+	<longdescription>Provide Explorer-like file selection in Dired</longdescription>
 </pkgmetadata>
