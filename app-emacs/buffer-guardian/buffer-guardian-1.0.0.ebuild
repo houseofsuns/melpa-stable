@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="pi-coding-agent"
+REALNAME="buffer-guardian"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Emacs frontend for pi coding agent"
+DESCRIPTION="Automatically Save Buffers Without Manual Intervention"
 
-HOMEPAGE="https://github.com/dnouri/pi-coding-agent"
+HOMEPAGE="https://github.com/jamescherti/jc-dev"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/transient"
-RDEPEND="app-emacs/transient"
+DEPEND=""
+RDEPEND=""
