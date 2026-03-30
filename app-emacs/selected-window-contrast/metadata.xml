@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Highlight by brightness of text and background</longdescription>
+	<longdescription>Highlight window and cursor at switching</longdescription>
 </pkgmetadata>

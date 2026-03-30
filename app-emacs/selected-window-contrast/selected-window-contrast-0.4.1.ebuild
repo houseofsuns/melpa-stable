@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Highlight by brightness of text and background"
+DESCRIPTION="Highlight window and cursor at switching"
 
 HOMEPAGE="https://codeberg.org/Anoncheg/selected-window-contrast"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
