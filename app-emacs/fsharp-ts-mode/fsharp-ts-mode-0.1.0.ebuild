@@ -5,20 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="ddskk"
+REALNAME="fsharp-ts-mode"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Simple Kana to Kanji conversion program"
+DESCRIPTION="Major mode for F# code"
 
-HOMEPAGE="https://stable.melpa.org/packages/"
+HOMEPAGE="https://github.com/bbatsov/fsharp-ts-mode"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/ccc
-	app-emacs/cdb"
-RDEPEND="app-emacs/ccc
-	app-emacs/cdb"
+DEPEND=""
+RDEPEND=""
