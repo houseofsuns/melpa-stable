@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Persistent quick sorting of Dired buffers in various ways</longdescription>
+	<longdescription>Magit-like porcelain for Kubernetes</longdescription>
 </pkgmetadata>
