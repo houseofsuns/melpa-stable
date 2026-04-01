@@ -1,12 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Display the current time using a binary clock
+DEPEND=app-emacs/persist app-emacs/tp
+DESCRIPTION=Client for fediverse services using the Mastodon API
 EAPI=8
-HOMEPAGE=https://github.com/davep/binclock.el
+HOMEPAGE=https://codeberg.org/martianh/mastodon.el
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=>=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/persist app-emacs/tp >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/binclock-1.11.tar
+SRC_URI=https://stable.melpa.org/packages/mastodon-2.0.15.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=6d2bb83e8f369edd9b0e7cfb5bada8a3
+_md5_=2eab8026f410d37fe20fc072b168e936

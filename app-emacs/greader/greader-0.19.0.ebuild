@@ -5,24 +5,20 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="eca"
+REALNAME="greader"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="AI pair programming via ECA (Editor Code Assistant)"
+DESCRIPTION="Gnamù reader, send buffer contents to a speech engine"
 
-HOMEPAGE="https://github.com/editor-code-assistant/eca-emacs"
+HOMEPAGE="https://gitlab.com/michelangelo-rodriguez/greader"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/dash
-	app-emacs/f
-	app-emacs/markdown-mode
+DEPEND="app-emacs/seq
 	app-emacs/compat"
-RDEPEND="app-emacs/dash
-	app-emacs/f
-	app-emacs/markdown-mode
+RDEPEND="app-emacs/seq
 	app-emacs/compat"
