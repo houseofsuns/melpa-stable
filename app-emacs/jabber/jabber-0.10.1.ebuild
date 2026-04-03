@@ -10,15 +10,13 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A minimal Jabber client"
+DESCRIPTION="XMPP/Jabber client"
 
-HOMEPAGE="https://codeberg.org/emacs-jabber/emacs-jabber"
+HOMEPAGE="https://git.thanosapollo.org/emacs-jabber"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/fsm
-	app-emacs/srv"
-RDEPEND="app-emacs/fsm
-	app-emacs/srv"
+DEPEND="app-emacs/fsm"
+RDEPEND="app-emacs/fsm"
