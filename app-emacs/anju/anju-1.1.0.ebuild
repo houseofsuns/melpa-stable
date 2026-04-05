@@ -5,18 +5,20 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="jabber"
+REALNAME="anju"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="XMPP/Jabber client"
+DESCRIPTION="Mouse UX Customizations"
 
-HOMEPAGE="https://git.thanosapollo.org/emacs-jabber"
+HOMEPAGE="https://github.com/kickingvegas/anju"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/fsm"
-RDEPEND="app-emacs/fsm"
+DEPEND="app-emacs/casual
+	app-emacs/markdown-mode"
+RDEPEND="app-emacs/casual
+	app-emacs/markdown-mode"

@@ -5,22 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="anju"
+REALNAME="evil-terminal-cursor-changer"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Mouse UX Customizations"
+DESCRIPTION="Change cursor shape and color in terminal"
 
-HOMEPAGE="https://github.com/kickingvegas/anju"
+HOMEPAGE="https://github.com/7696122/evil-terminal-cursor-changer"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/magit
-	app-emacs/casual
-	app-emacs/markdown-mode"
-RDEPEND="app-emacs/magit
-	app-emacs/casual
-	app-emacs/markdown-mode"
+DEPEND=""
+RDEPEND=""
