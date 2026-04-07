@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Toggle between Coq and reStructuredText"
+DESCRIPTION="Toggle between Code and markup"
 
 HOMEPAGE="https://github.com/cpitclaudel/alectryon"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
