@@ -1,13 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/concurrent app-emacs/popup
-DESCRIPTION=A client for Sekka IME server
+DEPEND=app-emacs/popup
+DESCRIPTION=Pure Elisp Japanese IME inspired by SKK
 EAPI=8
 HOMEPAGE=https://github.com/kiyoka/sekka
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/concurrent app-emacs/popup >=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/popup >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/sekka-1.8.0.tar
+SRC_URI=https://stable.melpa.org/packages/sekka-2.0.0.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=0210de35a9732387e27770b7a2d35bdf
+_md5_=4abe6c0eb1657c469603e98c487e152c

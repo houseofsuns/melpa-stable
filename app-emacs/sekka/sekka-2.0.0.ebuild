@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A client for Sekka IME server"
+DESCRIPTION="Pure Elisp Japanese IME inspired by SKK"
 
 HOMEPAGE="https://github.com/kiyoka/sekka"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,7 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/concurrent
-	app-emacs/popup"
-RDEPEND="app-emacs/concurrent
-	app-emacs/popup"
+DEPEND="app-emacs/popup"
+RDEPEND="app-emacs/popup"
