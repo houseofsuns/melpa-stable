@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Light Emacs color theme on cornsilk3 background"
+DESCRIPTION="Light cornsilk theme with warm, earthy colors"
 
 HOMEPAGE="https://github.com/WJCFerguson/emacs-faff-theme"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,5 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/modus-themes"
+RDEPEND="app-emacs/modus-themes"
