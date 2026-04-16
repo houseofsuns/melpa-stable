@@ -5,18 +5,22 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="dired-sidebar"
+REALNAME="ekg"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Tree browser leveraging dired"
+DESCRIPTION="A sqlite-based note-taking package based on tags"
 
-HOMEPAGE="https://github.com/jojojames/dired-sidebar"
+HOMEPAGE="https://github.com/ahyatt/ekg"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/dired-subtree"
-RDEPEND="app-emacs/dired-subtree"
+DEPEND="app-emacs/triples
+	app-emacs/llm
+	app-emacs/vui"
+RDEPEND="app-emacs/triples
+	app-emacs/llm
+	app-emacs/vui"

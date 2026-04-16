@@ -5,12 +5,12 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="ekg"
+REALNAME="ekg-denote"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A system for recording and linking information"
+DESCRIPTION="Denote integration for ekg"
 
 HOMEPAGE="https://github.com/ahyatt/ekg"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,7 +18,7 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/triples
-	app-emacs/llm"
-RDEPEND="app-emacs/triples
-	app-emacs/llm"
+DEPEND="app-emacs/ekg
+	app-emacs/denote"
+RDEPEND="app-emacs/ekg
+	app-emacs/denote"

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Denote integration for ekg</longdescription>
+	<longdescription>Agent tools for ekg</longdescription>
 </pkgmetadata>
