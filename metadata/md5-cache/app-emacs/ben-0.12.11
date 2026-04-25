@@ -1,13 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/async
-DESCRIPTION=Development files for Helm
+DEPEND=app-emacs/inheritenv app-emacs/seq
+DESCRIPTION=Asynchronous buffer-local environments via `direnv'
 EAPI=8
-HOMEPAGE=https://emacs-helm.github.io/helm/
+HOMEPAGE=https://codeberg.org/pastor/ben.el
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/async >=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/inheritenv app-emacs/seq >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/helm-core-4.0.6.tar
+SRC_URI=https://stable.melpa.org/packages/ben-0.12.11.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=3f44b6d558bbde0af58bb8b3563bd830
+_md5_=133a94c2694d1813438d119431da8ef1
