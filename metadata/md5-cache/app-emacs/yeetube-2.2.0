@@ -1,13 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/websocket
-DESCRIPTION=Emacs client for Lisp Chat
+DEPEND=app-emacs/compat app-emacs/transient
+DESCRIPTION=Scrape YouTube, Play with mpv & Download with yt-dlp
 EAPI=8
-HOMEPAGE=https://github.com/ryukinix/lisp-chat
+HOMEPAGE=https://thanosapollo.org/projects/yeetube/
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/websocket >=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/compat app-emacs/transient >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/lisp-chat-0.9.0.tar
+SRC_URI=https://stable.melpa.org/packages/yeetube-2.2.0.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=64cccb8ba5cbf32a1ab766a0d8b89889
+_md5_=fe18f6d266358446bdfd997e8a8d9eb0
