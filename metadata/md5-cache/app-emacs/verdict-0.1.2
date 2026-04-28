@@ -1,13 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/fedi app-emacs/tp app-emacs/transient app-emacs/magit
-DESCRIPTION=Client for Forgejo instances
+DEPEND=app-emacs/treemacs app-emacs/dash
+DESCRIPTION=Generic test runner with treemacs results UI
 EAPI=8
-HOMEPAGE=https://codeberg.org/martianh/fj.el
+HOMEPAGE=https://github.com/tjarvstrand/verdict.el
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/fedi app-emacs/tp app-emacs/transient app-emacs/magit >=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/treemacs app-emacs/dash >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/fj-0.34.tar
+SRC_URI=https://stable.melpa.org/packages/verdict-0.1.2.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=9091e5da8c102eafbb77f0898ca4b1f5
+_md5_=219993435b0ed66c784c0b021284db30
