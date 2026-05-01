@@ -1,13 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/compat app-emacs/transient
-DESCRIPTION=Scrape YouTube, Play with mpv & Download with yt-dlp
+DEPEND=app-emacs/geiser
+DESCRIPTION=Support for Racket in Geiser
 EAPI=8
-HOMEPAGE=https://thanosapollo.org/projects/yeetube/
+HOMEPAGE=https://gitlab.com/emacs-geiser/racket
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/compat app-emacs/transient >=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/geiser >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/yeetube-2.2.0.tar
+SRC_URI=https://stable.melpa.org/packages/geiser-racket-0.16.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=fe18f6d266358446bdfd997e8a8d9eb0
+_md5_=9f36c399a13ae0dbdb23b57d2b81d782
