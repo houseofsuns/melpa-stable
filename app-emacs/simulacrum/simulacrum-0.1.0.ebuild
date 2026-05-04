@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="egison-mode"
+REALNAME="simulacrum"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Egison editing mode"
+DESCRIPTION="Inject custom event types into the event stream"
 
-HOMEPAGE="https://github.com/egisatoshi/egison3/blob/master/elisp/egison-mode.el"
+HOMEPAGE="https://github.com/ErikPrantare/simulacrum.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
