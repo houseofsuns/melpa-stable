@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="ghostel"
+REALNAME="shell-pop"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Terminal emulator powered by libghostty"
+DESCRIPTION="Easily toggle a shell window with a single keystroke"
 
-HOMEPAGE="https://github.com/dakra/ghostel"
+HOMEPAGE="https://github.com/kyagi/shell-pop-el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

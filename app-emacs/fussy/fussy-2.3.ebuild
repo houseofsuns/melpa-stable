@@ -5,18 +5,20 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="shell-pop"
+REALNAME="fussy"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Helps you to use shell easily on Emacs. Only one key action to work"
+DESCRIPTION="Fuzzy completion style using \`flx' and/or \`fzf-native'"
 
-HOMEPAGE="https://github.com/kyagi/shell-pop-el"
+HOMEPAGE="https://github.com/jojojames/fussy"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/flx
+	app-emacs/compat"
+RDEPEND="app-emacs/flx
+	app-emacs/compat"

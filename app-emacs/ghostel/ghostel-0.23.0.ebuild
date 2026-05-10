@@ -5,20 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="fussy"
+REALNAME="ghostel"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Fuzzy completion style using \`flx'"
+DESCRIPTION="Terminal emulator powered by libghostty"
 
-HOMEPAGE="https://github.com/jojojames/fussy"
+HOMEPAGE="https://github.com/dakra/ghostel"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/flx
-	app-emacs/compat"
-RDEPEND="app-emacs/flx
-	app-emacs/compat"
+DEPEND="app-emacs/compat"
+RDEPEND="app-emacs/compat"

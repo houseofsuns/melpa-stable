@@ -1,12 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=NASM x86 assembly major mode
+DEPEND=app-emacs/cider
+DESCRIPTION=Ontology Editing with Tawny-OWL
 EAPI=8
-HOMEPAGE=https://github.com/skeeto/nasm-mode
+HOMEPAGE=https://github.com/phillord/tawny-owl
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=>=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/cider >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/nasm-mode-1.1.1.tar
+SRC_URI=https://stable.melpa.org/packages/tawny-mode-3.0.0.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=4b58236ca9911349124d793ff35bf9c1
+_md5_=63746b7d2f383fababad0c8cbc703048

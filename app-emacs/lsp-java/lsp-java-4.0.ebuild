@@ -23,7 +23,6 @@ DEPEND="app-emacs/lsp-mode
 	app-emacs/dash
 	app-emacs/f
 	app-emacs/ht
-	app-emacs/dash-functional
 	app-emacs/request
 	app-emacs/treemacs
 	app-emacs/dap-mode"
@@ -32,7 +31,6 @@ RDEPEND="app-emacs/lsp-mode
 	app-emacs/dash
 	app-emacs/f
 	app-emacs/ht
-	app-emacs/dash-functional
 	app-emacs/request
 	app-emacs/treemacs
 	app-emacs/dap-mode"

@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/ghub app-emacs/transient
-DESCRIPTION=List, create, update and delete GitHub gists
+DESCRIPTION=Easily toggle a shell window with a single keystroke
 EAPI=8
-HOMEPAGE=https://github.com/KarimAziev/igist
+HOMEPAGE=https://github.com/kyagi/shell-pop-el
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/ghub app-emacs/transient >=app-editors/emacs-26.3:*
+RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/igist-1.8.1.tar
+SRC_URI=https://stable.melpa.org/packages/shell-pop-0.70.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=5aeaccfdbef5e15e7db5cd40126d4dad
+_md5_=c19097e089da99cf708b87c0b225cc43
