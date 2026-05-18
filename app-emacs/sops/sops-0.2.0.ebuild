@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="lsp-tailwindcss"
+REALNAME="sops"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A lsp-mode client for tailwindcss"
+DESCRIPTION="Edit SOPS-encrypted files transparently"
 
-HOMEPAGE="https://github.com/merrickluo/lsp-tailwindcss"
+HOMEPAGE="https://github.com/djgoku/sops"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/lsp-mode"
-RDEPEND="app-emacs/lsp-mode"
+DEPEND=""
+RDEPEND=""
