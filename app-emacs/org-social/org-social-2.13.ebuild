@@ -21,8 +21,10 @@ KEYWORDS="~amd64 ~x86"
 DEPEND="app-emacs/org-mode
 	app-emacs/request
 	app-emacs/seq
-	app-emacs/emojify"
+	app-emacs/emojify
+	app-emacs/async-http-queue"
 RDEPEND="app-emacs/org-mode
 	app-emacs/request
 	app-emacs/seq
-	app-emacs/emojify"
+	app-emacs/emojify
+	app-emacs/async-http-queue"
