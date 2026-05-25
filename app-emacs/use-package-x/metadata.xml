@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Manage watchlist with Org mode</longdescription>
+	<longdescription>Additional keywords for use-package</longdescription>
 </pkgmetadata>
