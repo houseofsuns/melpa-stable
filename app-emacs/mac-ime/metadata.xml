@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>NSEvent hook for macOS input method</longdescription>
+	<longdescription>Seamless macOS IME integration without any IME patches</longdescription>
 </pkgmetadata>

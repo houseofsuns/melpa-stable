@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="NSEvent hook for macOS input method"
+DESCRIPTION="Seamless macOS IME integration without any IME patches"
 
 HOMEPAGE="https://github.com/ma0001/mac-ime"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
