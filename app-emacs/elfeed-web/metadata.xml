@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>An Atom/RSS feed reader</longdescription>
+	<longdescription>Web interface to Elfeed</longdescription>
 </pkgmetadata>
