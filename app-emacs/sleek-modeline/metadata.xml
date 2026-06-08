@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>AI-LLM chat blocks for org-mode</longdescription>
+	<longdescription>Minimal and elegant modeline</longdescription>
 </pkgmetadata>

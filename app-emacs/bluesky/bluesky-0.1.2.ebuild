@@ -5,18 +5,22 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="outline-indent"
+REALNAME="bluesky"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Folding text based on indentation (origami alternative)"
+DESCRIPTION="A Bluesky client"
 
-HOMEPAGE="https://github.com/jamescherti/outline-indent.el"
+HOMEPAGE="https://github.com/ahyatt/emacs-bluesky"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/plz
+	app-emacs/futur
+	app-emacs/vui"
+RDEPEND="app-emacs/plz
+	app-emacs/futur
+	app-emacs/vui"
