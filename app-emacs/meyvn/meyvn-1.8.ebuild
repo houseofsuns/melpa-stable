@@ -19,14 +19,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/cider
-	app-emacs/projectile
 	app-emacs/s
 	app-emacs/dash
 	app-emacs/parseedn
 	app-emacs/parseclj
 	app-emacs/geiser"
 RDEPEND="app-emacs/cider
-	app-emacs/projectile
 	app-emacs/s
 	app-emacs/dash
 	app-emacs/parseedn
