@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="lsp-ltex-plus"
+REALNAME="cui"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Minimal lsp-mode client for ltex-ls-plus"
+DESCRIPTION="Chat blocks in org-mode for LLM and agents"
 
-HOMEPAGE="https://github.com/ltex-plus/emacs-ltex-plus"
+HOMEPAGE="https://codeberg.org/Anoncheg/emacs-cui"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/lsp-mode"
-RDEPEND="app-emacs/lsp-mode"
+DEPEND=""
+RDEPEND=""

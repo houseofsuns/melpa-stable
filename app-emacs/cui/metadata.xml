@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Grammar and spell checking for LaTeX, Markdown, Org and more</longdescription>
+	<longdescription>Chat blocks in org-mode for LLM and agents</longdescription>
 </pkgmetadata>

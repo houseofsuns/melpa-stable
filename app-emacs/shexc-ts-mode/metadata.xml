@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Grammar and spell checking for LaTeX, Markdown, Org and more</longdescription>
+	<longdescription>Tree-sitter major mode for ShExC</longdescription>
 </pkgmetadata>
