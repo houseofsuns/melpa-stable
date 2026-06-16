@@ -19,6 +19,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/clojure-mode
+	app-emacs/compat
 	app-emacs/parseedn
 	app-emacs/queue
 	app-emacs/spinner
@@ -26,6 +27,7 @@ DEPEND="app-emacs/clojure-mode
 	app-emacs/sesman
 	app-emacs/transient"
 RDEPEND="app-emacs/clojure-mode
+	app-emacs/compat
 	app-emacs/parseedn
 	app-emacs/queue
 	app-emacs/spinner
