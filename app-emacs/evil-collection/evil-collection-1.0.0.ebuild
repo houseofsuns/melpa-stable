@@ -18,7 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/evil
-	app-emacs/annalist"
-RDEPEND="app-emacs/evil
-	app-emacs/annalist"
+DEPEND="app-emacs/evil"
+RDEPEND="app-emacs/evil"
