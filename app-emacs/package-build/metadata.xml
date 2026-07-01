@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Tools for assembling a package archive</longdescription>
+	<longdescription>Curate an Emacs Lisp package archive</longdescription>
 </pkgmetadata>
