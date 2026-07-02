@@ -26,7 +26,6 @@ DEPEND="app-emacs/compat
 	app-emacs/llama
 	app-emacs/magit
 	app-emacs/markdown-mode
-	app-emacs/seq
 	app-emacs/transient
 	app-emacs/yaml"
 RDEPEND="app-emacs/compat
@@ -37,6 +36,5 @@ RDEPEND="app-emacs/compat
 	app-emacs/llama
 	app-emacs/magit
 	app-emacs/markdown-mode
-	app-emacs/seq
 	app-emacs/transient
 	app-emacs/yaml"
