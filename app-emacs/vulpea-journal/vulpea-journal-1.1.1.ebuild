@@ -20,7 +20,9 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/vulpea
 	app-emacs/vulpea-ui
+	app-emacs/vui
 	app-emacs/dash"
 RDEPEND="app-emacs/vulpea
 	app-emacs/vulpea-ui
+	app-emacs/vui
 	app-emacs/dash"
