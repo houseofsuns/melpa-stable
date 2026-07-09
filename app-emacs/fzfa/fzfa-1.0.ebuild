@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="nimbus-theme"
+REALNAME="fzfa"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Nimbus dark theme"
+DESCRIPTION="Async fuzzy completion via \`fzf-native'"
 
-HOMEPAGE="https://github.com/m-cat/nimbus-theme"
+HOMEPAGE="https://github.com/jojojames/fzfa"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/fzf-native"
+RDEPEND="app-emacs/fzf-native"
