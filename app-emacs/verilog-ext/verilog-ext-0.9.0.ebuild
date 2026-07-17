@@ -21,8 +21,7 @@ KEYWORDS="~amd64 ~x86"
 DEPEND="app-emacs/verilog-mode
 	app-emacs/verilog-ts-mode
 	app-emacs/lsp-mode
-	app-emacs/ag
-	app-emacs/ripgrep
+	app-emacs/rg
 	app-emacs/hydra
 	app-emacs/apheleia
 	app-emacs/yasnippet
@@ -31,8 +30,7 @@ DEPEND="app-emacs/verilog-mode
 RDEPEND="app-emacs/verilog-mode
 	app-emacs/verilog-ts-mode
 	app-emacs/lsp-mode
-	app-emacs/ag
-	app-emacs/ripgrep
+	app-emacs/rg
 	app-emacs/hydra
 	app-emacs/apheleia
 	app-emacs/yasnippet

@@ -20,15 +20,13 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/vhdl-ts-mode
 	app-emacs/lsp-mode
-	app-emacs/ag
-	app-emacs/ripgrep
+	app-emacs/rg
 	app-emacs/hydra
 	app-emacs/flycheck
 	app-emacs/async"
 RDEPEND="app-emacs/vhdl-ts-mode
 	app-emacs/lsp-mode
-	app-emacs/ag
-	app-emacs/ripgrep
+	app-emacs/rg
 	app-emacs/hydra
 	app-emacs/flycheck
 	app-emacs/async"

@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Replace the thing in buffer and defun</longdescription>
+	<longdescription>View certificates, CRLs and keys using OpenSSL</longdescription>
 </pkgmetadata>
