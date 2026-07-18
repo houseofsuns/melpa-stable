@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Interface to PHPStan"
+DESCRIPTION="Interface to PHPStan (PHP static analyzer)"
 
 HOMEPAGE="https://github.com/emacs-php/phpstan.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
