@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="batppuccin"
+REALNAME="tokyo-night"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Shared infrastructure for Batppuccin themes"
+DESCRIPTION="Tokyo Night color themes"
 
-HOMEPAGE="https://github.com/bbatsov/batppuccin-emacs"
+HOMEPAGE="https://github.com/bbatsov/tokyo-night-emacs"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
