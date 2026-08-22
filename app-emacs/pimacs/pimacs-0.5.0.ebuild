@@ -19,13 +19,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/compat
-	app-emacs/markdown-mode
 	app-emacs/timeout
 	app-emacs/pcre2el
 	app-emacs/spinner
 	app-emacs/transient"
 RDEPEND="app-emacs/compat
-	app-emacs/markdown-mode
 	app-emacs/timeout
 	app-emacs/pcre2el
 	app-emacs/spinner
