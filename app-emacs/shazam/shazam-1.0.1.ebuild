@@ -5,22 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="browsel"
+REALNAME="shazam"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="WebSocket bridge to a Chrome/Firefox extension"
+DESCRIPTION="Shazam Interface (macOS only)"
 
-HOMEPAGE="https://github.com/dmgerman/browsel"
+HOMEPAGE="https://github.com/kickingvegas/shazam"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/websocket
-	app-emacs/org-mode
-	app-emacs/vertico"
-RDEPEND="app-emacs/websocket
-	app-emacs/org-mode
-	app-emacs/vertico"
+DEPEND=""
+RDEPEND=""
