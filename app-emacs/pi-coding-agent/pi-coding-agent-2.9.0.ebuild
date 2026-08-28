@@ -19,8 +19,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/transient
+	app-emacs/magit-section
 	app-emacs/md-ts-mode
 	app-emacs/markdown-table-wrap"
 RDEPEND="app-emacs/transient
+	app-emacs/magit-section
 	app-emacs/md-ts-mode
 	app-emacs/markdown-table-wrap"
