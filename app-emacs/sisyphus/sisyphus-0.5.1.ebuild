@@ -20,11 +20,9 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/compat
 	app-emacs/cond-let
-	app-emacs/elx
 	app-emacs/llama
 	app-emacs/magit"
 RDEPEND="app-emacs/compat
 	app-emacs/cond-let
-	app-emacs/elx
 	app-emacs/llama
 	app-emacs/magit"

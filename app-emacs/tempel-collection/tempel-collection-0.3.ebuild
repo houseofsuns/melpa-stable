@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="latex-to-svg-backend"
+REALNAME="tempel-collection"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Content-addressed LaTeX-to-SVG image rendering"
+DESCRIPTION="Collection of templates for Tempel"
 
-HOMEPAGE="https://github.com/alberti42/latex-to-svg-backend"
+HOMEPAGE="https://github.com/Crandel/tempel-collection"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/tempel"
+RDEPEND="app-emacs/tempel"
