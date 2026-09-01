@@ -18,9 +18,7 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/casual
-	app-emacs/casual-avy
+DEPEND="app-emacs/casual-avy
 	app-emacs/casual-symbol-overlay"
-RDEPEND="app-emacs/casual
-	app-emacs/casual-avy
+RDEPEND="app-emacs/casual-avy
 	app-emacs/casual-symbol-overlay"
