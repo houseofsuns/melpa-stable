@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Major mode for editing docker-compose files</longdescription>
+	<longdescription>Toggle grouping commas in numbers</longdescription>
 </pkgmetadata>

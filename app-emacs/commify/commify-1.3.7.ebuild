@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="flymake-diagnostic-at-point"
+REALNAME="commify"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Display flymake diagnostics at point"
+DESCRIPTION="Toggle grouping commas in numbers"
 
-HOMEPAGE="https://github.com/meqif/flymake-diagnostic-at-point"
+HOMEPAGE="https://github.com/ddoherty03/commify"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/popup"
-RDEPEND="app-emacs/popup"
+DEPEND="app-emacs/s"
+RDEPEND="app-emacs/s"
