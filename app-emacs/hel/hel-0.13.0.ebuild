@@ -12,11 +12,17 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Helix Emulation Layer"
 
-HOMEPAGE="https://github.com/anuvyklack/hel"
+HOMEPAGE="https://github.com/helheim-emacs/hel"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/dash
+	app-emacs/avy
+	app-emacs/pcre2el
+	app-emacs/ultra-scroll"
+RDEPEND="app-emacs/dash
+	app-emacs/avy
+	app-emacs/pcre2el
+	app-emacs/ultra-scroll"

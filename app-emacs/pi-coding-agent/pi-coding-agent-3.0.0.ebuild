@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Emacs frontend for pi coding agent"
+DESCRIPTION="Deprecated aliases for piem"
 
 HOMEPAGE="https://github.com/dnouri/pi-coding-agent"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,11 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/transient
-	app-emacs/magit-section
-	app-emacs/md-ts-mode
-	app-emacs/markdown-table-wrap"
-RDEPEND="app-emacs/transient
-	app-emacs/magit-section
-	app-emacs/md-ts-mode
-	app-emacs/markdown-table-wrap"
+DEPEND=""
+RDEPEND=""
