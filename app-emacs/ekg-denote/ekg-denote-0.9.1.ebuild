@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Denote integration for ekg"
+DESCRIPTION="A denote integration for ekg"
 
 HOMEPAGE="https://github.com/ahyatt/ekg"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

@@ -18,11 +18,11 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/company-math
-	app-emacs/company
+DEPEND="app-emacs/dash
 	app-emacs/yasnippet
-	app-emacs/dash"
-RDEPEND="app-emacs/company-math
 	app-emacs/company
+	app-emacs/company-math"
+RDEPEND="app-emacs/dash
 	app-emacs/yasnippet
-	app-emacs/dash"
+	app-emacs/company
+	app-emacs/company-math"

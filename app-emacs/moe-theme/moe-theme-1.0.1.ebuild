@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A colorful eye-candy theme. Moe, moe, kyun!"
+DESCRIPTION="[No description available]"
 
 HOMEPAGE="https://github.com/kuanyui/moe-theme.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

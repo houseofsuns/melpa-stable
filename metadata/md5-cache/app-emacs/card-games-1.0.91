@@ -1,6 +1,6 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Play card games in Emacs (console UNICODE and graphical SVG)
+DESCRIPTION=Play card games in Emacs (console + SVG)
 EAPI=8
 HOMEPAGE=https://code.bru.st/corwin/card-game.el
 INHERIT=g-sorcery gs-elpa
@@ -9,4 +9,4 @@ RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
 SRC_URI=https://stable.melpa.org/packages/card-games-1.0.91.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=954611104b3aec706d01caa6759979c1
+_md5_=22b2d8ddf31eac58b00ac4e26fc0b7b9

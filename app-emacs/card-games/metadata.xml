@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Play card games in Emacs (console UNICODE and graphical SVG)</longdescription>
+	<longdescription>Play card games in Emacs (console + SVG)</longdescription>
 </pkgmetadata>

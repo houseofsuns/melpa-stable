@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Agent tools for ekg"
+DESCRIPTION="Agentic actions for ekg"
 
 HOMEPAGE="https://github.com/ahyatt/ekg"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

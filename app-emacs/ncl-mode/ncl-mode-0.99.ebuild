@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Major Mode for editing NCL scripts and other goodies"
+DESCRIPTION="Major Mode for editing NCL scripts"
 
 HOMEPAGE="https://github.com/yyr/ncl-mode"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

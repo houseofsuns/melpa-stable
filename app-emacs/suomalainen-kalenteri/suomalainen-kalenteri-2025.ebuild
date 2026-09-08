@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Finnish national and Christian holidays for calendar"
+DESCRIPTION="Finnish holidays for Emacs calendar"
 
 HOMEPAGE="https://github.com/tlikonen/suomalainen-kalenteri"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

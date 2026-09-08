@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>RPM and CPIO support for archive-mode</longdescription>
+	<longdescription>RPM support for archive-mode</longdescription>
 </pkgmetadata>

@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Fuzzy Search Library & Completing Read"
+DESCRIPTION="Fast fuzzy search index for Emacs"
 
 HOMEPAGE="https://github.com/d11wtq/grizzl"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

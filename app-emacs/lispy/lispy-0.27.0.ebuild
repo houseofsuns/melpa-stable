@@ -18,13 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/ace-window
-	app-emacs/iedit
-	app-emacs/swiper
-	app-emacs/hydra
-	app-emacs/zoutline"
-RDEPEND="app-emacs/ace-window
-	app-emacs/iedit
-	app-emacs/swiper
-	app-emacs/hydra
-	app-emacs/zoutline"
+DEPEND=""
+RDEPEND=""

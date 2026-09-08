@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Quasi Monochrome theme"
+DESCRIPTION="High contrast quasi monochrome color theme"
 
 HOMEPAGE="https://github.com/lbolla/emacs-quasi-monochrome"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,5 +18,7 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/evil
+	app-emacs/flycheck"
+RDEPEND="app-emacs/evil
+	app-emacs/flycheck"

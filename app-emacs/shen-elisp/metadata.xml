@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Shen implementation in Elisp</longdescription>
+	<longdescription>An implementation of the Shen programming language</longdescription>
 </pkgmetadata>

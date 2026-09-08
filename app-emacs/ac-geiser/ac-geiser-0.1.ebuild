@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Auto-complete backend for geiser"
+DESCRIPTION="Emacs auto-complete backend for geiser"
 
 HOMEPAGE="https://github.com/xiaohanyu/ac-geiser"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

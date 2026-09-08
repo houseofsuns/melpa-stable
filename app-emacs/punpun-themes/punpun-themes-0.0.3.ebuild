@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A set of bleak themes"
+DESCRIPTION="Common color definitions for punpun themes"
 
 HOMEPAGE="https://depp.brause.cc/punpun-themes"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

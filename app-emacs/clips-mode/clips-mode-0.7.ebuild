@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Major mode for editing CLIPS code and REPL"
+DESCRIPTION="Clips editing mode"
 
 HOMEPAGE="https://github.com/clips-mode/clips-mode"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

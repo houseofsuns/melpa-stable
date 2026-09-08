@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Sr Speedbar adaptor for project-persist-drawer"
+DESCRIPTION="Sr Speedbar Adaptor for project-persist-drawer"
 
 HOMEPAGE="https://github.com/rdallasgrayppd-sr-speedbar"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,7 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/sr-speedbar
-	app-emacs/project-persist-drawer"
-RDEPEND="app-emacs/sr-speedbar
-	app-emacs/project-persist-drawer"
+DEPEND=""
+RDEPEND=""

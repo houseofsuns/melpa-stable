@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Emacs Database Interface"
+DESCRIPTION="Database independent interface for Emacs"
 
 HOMEPAGE="https://github.com/kiwanami/emacs-edbi"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,9 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/concurrent
-	app-emacs/ctable
-	app-emacs/epc"
-RDEPEND="app-emacs/concurrent
-	app-emacs/ctable
-	app-emacs/epc"
+DEPEND=""
+RDEPEND=""

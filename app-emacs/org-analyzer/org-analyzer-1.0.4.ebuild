@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Org-analyzer is a tool that extracts time tracking data from org files"
+DESCRIPTION="Visualizes org-mode time tracking data"
 
 HOMEPAGE="https://github.com/rksm/clj-org-analyzer"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

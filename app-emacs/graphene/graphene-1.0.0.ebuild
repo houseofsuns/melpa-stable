@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Friendly Emacs defaults"
+DESCRIPTION="Newbie-friendly defaults"
 
 HOMEPAGE="https://github.com/rdallasgray/graphene"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,25 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/dash
-	app-emacs/exec-path-from-shell
-	app-emacs/ppd-sr-speedbar
-	app-emacs/sr-speedbar
-	app-emacs/ido-completing-read+
-	app-emacs/smex
-	app-emacs/web-mode
-	app-emacs/smartparens
-	app-emacs/graphene-meta-theme
-	app-emacs/flycheck
-	app-emacs/company"
-RDEPEND="app-emacs/dash
-	app-emacs/exec-path-from-shell
-	app-emacs/ppd-sr-speedbar
-	app-emacs/sr-speedbar
-	app-emacs/ido-completing-read+
-	app-emacs/smex
-	app-emacs/web-mode
-	app-emacs/smartparens
-	app-emacs/graphene-meta-theme
-	app-emacs/flycheck
-	app-emacs/company"
+DEPEND=""
+RDEPEND=""

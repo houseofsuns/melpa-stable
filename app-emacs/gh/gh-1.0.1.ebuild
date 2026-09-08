@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A GitHub library for Emacs"
+DESCRIPTION="Github API client libraries"
 
 HOMEPAGE="https://github.com/sigma/gh.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,9 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/pcache
-	app-emacs/logito
-	app-emacs/marshal"
-RDEPEND="app-emacs/pcache
-	app-emacs/logito
-	app-emacs/marshal"
+DEPEND=""
+RDEPEND=""

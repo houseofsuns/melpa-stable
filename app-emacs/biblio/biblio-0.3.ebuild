@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Browse and import bibliographic references from CrossRef, arXiv, DBLP, HAL, Dissemin, and doi.org"
+DESCRIPTION="Browse and import bibliographic references and BibTeX records from CrossRef, arXiv, DBLP, HAL, IEEE Xplore, Dissemin, and doi.org"
 
 HOMEPAGE="https://github.com/cpitclaudel/biblio.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

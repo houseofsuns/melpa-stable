@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Ergonomic Command Mode for Emacs"
+DESCRIPTION="An Ergonomic Command Mode"
 
 HOMEPAGE="https://github.com/jyp/boon"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,9 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/dash
-	app-emacs/expand-region
-	app-emacs/multiple-cursors"
-RDEPEND="app-emacs/dash
-	app-emacs/expand-region
-	app-emacs/multiple-cursors"
+DEPEND=""
+RDEPEND=""

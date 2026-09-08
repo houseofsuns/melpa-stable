@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Collection of themes built on combinations of 16 base colors</longdescription>
+	<longdescription>A set of base16 themes for your favorite editor</longdescription>
 </pkgmetadata>

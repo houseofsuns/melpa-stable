@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Collection of themes built on combinations of 16 base colors"
+DESCRIPTION="A set of base16 themes for your favorite editor"
 
 HOMEPAGE="https://github.com/tinted-theming/base16-emacs"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

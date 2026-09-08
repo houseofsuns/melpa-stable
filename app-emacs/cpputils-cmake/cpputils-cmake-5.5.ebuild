@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Easy real time C++ syntax check and intellisense if you use CMake"
+DESCRIPTION="Easy realtime C++ syntax check and IntelliSense with CMake"
 
 HOMEPAGE="https://github.com/redguardtoo/cpputils-cmake"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

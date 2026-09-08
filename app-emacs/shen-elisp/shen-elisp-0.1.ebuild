@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Shen implementation in Elisp"
+DESCRIPTION="An implementation of the Shen programming language"
 
 HOMEPAGE="https://github.com/deech/shen-elisp"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Extensible Vi layer for Emacs"
+DESCRIPTION="Extensible vi layer"
 
 HOMEPAGE="https://github.com/emacs-evil/evil"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,5 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/goto-chg"
-RDEPEND="app-emacs/goto-chg"
+DEPEND=""
+RDEPEND=""

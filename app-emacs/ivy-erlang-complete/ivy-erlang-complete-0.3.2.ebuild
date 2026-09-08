@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Erlang context sensitive completion at point using ivy. It also support xref and eldoc"
+DESCRIPTION="Erlang completion at point using ivy"
 
 HOMEPAGE="https://github.com/s-kostyaev/ivy-erlang-complete"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,11 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/async
-	app-emacs/counsel
-	app-emacs/ivy
-	app-emacs/erlang"
-RDEPEND="app-emacs/async
-	app-emacs/counsel
-	app-emacs/ivy
-	app-emacs/erlang"
+DEPEND=""
+RDEPEND=""

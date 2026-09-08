@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Org-analyzer is a tool that extracts time tracking data from org files</longdescription>
+	<longdescription>Visualizes org-mode time tracking data</longdescription>
 </pkgmetadata>

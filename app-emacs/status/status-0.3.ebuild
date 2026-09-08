@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="This package adds support for status icons to Emacs"
+DESCRIPTION="Notification area support for Emacs"
 
 HOMEPAGE="https://github.com/tromey/emacs-status"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
