@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Easily introduce native modal editing of your own design"
+DESCRIPTION="Modal editing your way"
 
 HOMEPAGE="https://github.com/mrkkrp/modalka"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
