@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="FreshRSS protocol for elfeed"
+DESCRIPTION="FreshRSS compatible gReader protocol implementation for elfeed"
 
 HOMEPAGE="https://codeberg.org/lou/elfeed-protocol-freshrss"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

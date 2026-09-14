@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>FreshRSS protocol for elfeed</longdescription>
+	<longdescription>FreshRSS compatible gReader protocol implementation for elfeed</longdescription>
 </pkgmetadata>
