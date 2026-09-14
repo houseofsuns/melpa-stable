@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="lsp-ltex-plus"
+REALNAME="single-window"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Grammar and spell checking for LaTeX, Markdown, Org and more"
+DESCRIPTION="Always open buffers in the current window"
 
-HOMEPAGE="https://github.com/ltex-plus/emacs-ltex-plus"
+HOMEPAGE="https://github.com/jamescherti/single-window.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/lsp-mode"
-RDEPEND="app-emacs/lsp-mode"
+DEPEND=""
+RDEPEND=""

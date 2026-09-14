@@ -5,24 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="fj"
+REALNAME="org-clock-dbus"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Client for Forgejo instances"
+DESCRIPTION="Monitor org-clock from outside Emacs"
 
-HOMEPAGE="https://codeberg.org/martianh/fj.el"
+HOMEPAGE="https://github.com/pjones/org-clock-db"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/fedi
-	app-emacs/tp
-	app-emacs/transient
-	app-emacs/magit"
-RDEPEND="app-emacs/fedi
-	app-emacs/tp
-	app-emacs/transient
-	app-emacs/magit"
+DEPEND="app-emacs/org-mode"
+RDEPEND="app-emacs/org-mode"
