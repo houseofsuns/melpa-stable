@@ -20,7 +20,9 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/cider
 	app-emacs/s
-	app-emacs/simple-httpd"
+	app-emacs/simple-httpd
+	app-emacs/dash"
 RDEPEND="app-emacs/cider
 	app-emacs/s
-	app-emacs/simple-httpd"
+	app-emacs/simple-httpd
+	app-emacs/dash"
