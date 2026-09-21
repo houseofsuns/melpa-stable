@@ -5,24 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="ejc-sql"
+REALNAME="remoto"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Emacs SQL client uses Clojure JDBC"
+DESCRIPTION="Browse GitHub repos without cloning"
 
-HOMEPAGE="https://github.com/kostafey/ejc-sql"
+HOMEPAGE="https://github.com/agzam/remoto.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/clomacs
-	app-emacs/dash
-	app-emacs/spinner
-	app-emacs/direx"
-RDEPEND="app-emacs/clomacs
-	app-emacs/dash
-	app-emacs/spinner
-	app-emacs/direx"
+DEPEND="app-emacs/ghub"
+RDEPEND="app-emacs/ghub"
