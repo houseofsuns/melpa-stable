@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="latex-to-svg-backend"
+REALNAME="dharmamitra"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="LaTeX-to-SVG rendering engine with caching"
+DESCRIPTION="Sanskrit/Pāli/Tibetan/Chinese analysis via dharmamitra.org"
 
-HOMEPAGE="https://github.com/alberti42/latex-to-svg-backend"
+HOMEPAGE="https://github.com/dharmamitra/dharmamitra-emacs"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

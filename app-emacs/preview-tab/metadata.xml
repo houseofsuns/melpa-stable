@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>LaTeX-to-SVG rendering backend with caching</longdescription>
+	<longdescription>Temporary file buffers, like VS Code's preview tab</longdescription>
 </pkgmetadata>
