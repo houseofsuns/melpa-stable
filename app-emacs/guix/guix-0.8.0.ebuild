@@ -23,10 +23,12 @@ DEPEND="app-emacs/dash
 	app-emacs/bui
 	app-emacs/transient
 	app-emacs/edit-indirect
-	app-emacs/magit-popup"
+	app-emacs/magit-popup
+	app-emacs/consult"
 RDEPEND="app-emacs/dash
 	app-emacs/geiser
 	app-emacs/bui
 	app-emacs/transient
 	app-emacs/edit-indirect
-	app-emacs/magit-popup"
+	app-emacs/magit-popup
+	app-emacs/consult"

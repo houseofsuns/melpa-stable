@@ -1,13 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/ekg app-emacs/denote
-DESCRIPTION=A denote integration for ekg
+DEPEND=app-emacs/triples app-emacs/llm app-emacs/vui
+DESCRIPTION=A system for recording and linking information
 EAPI=8
 HOMEPAGE=https://github.com/ahyatt/ekg
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/ekg app-emacs/denote >=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/triples app-emacs/llm app-emacs/vui >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/ekg-denote-0.9.1.tar
+SRC_URI=https://stable.melpa.org/packages/ekg-0.9.2.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=2a5f980b7843fb9ee2a5e4f739f50ffd
+_md5_=5fd1727b6bcd61d78a38866bb235e22c
