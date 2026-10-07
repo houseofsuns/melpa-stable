@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="ace-jump-mode"
+REALNAME="neofetch"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A quick cursor location minor mode for emacs"
+DESCRIPTION="Pretty system information tool for the Eshell"
 
-HOMEPAGE="https://github.com/winterTTr/ace-jump-mode/"
+HOMEPAGE="https://codeberg.org/benja2998/neofetch.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
