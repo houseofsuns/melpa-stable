@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Support for \`direnv' that operates buffer-locally"
+DESCRIPTION="Buffer-local \`direnv' support with choice of sync/async"
 
 HOMEPAGE="https://github.com/purcell/envrc"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

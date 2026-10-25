@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Support for `direnv' that operates buffer-locally</longdescription>
+	<longdescription>Buffer-local `direnv' support with choice of sync/async</longdescription>
 </pkgmetadata>
