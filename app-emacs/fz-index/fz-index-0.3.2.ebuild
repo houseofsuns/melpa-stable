@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="remoto"
+REALNAME="fz-index"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Browse GitHub repos without cloning"
+DESCRIPTION="Sublime-style fuzzy file open with a native index"
 
-HOMEPAGE="https://github.com/agzam/remoto.el"
+HOMEPAGE="https://github.com/uppet/fz-index"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/ghub"
-RDEPEND="app-emacs/ghub"
+DEPEND=""
+RDEPEND=""

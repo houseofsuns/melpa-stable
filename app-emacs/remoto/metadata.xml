@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Browse GitHub repos without cloning</longdescription>
+	<longdescription>Browse GitHub and Codeberg repos without cloning</longdescription>
 </pkgmetadata>
