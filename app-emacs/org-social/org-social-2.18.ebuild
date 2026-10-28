@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="An Org-social client"
 
-HOMEPAGE="https://github.com/tanrax/org-social.el"
+HOMEPAGE="https://git.andros.dev/org-social/org-social.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

@@ -3,11 +3,11 @@ DEFINED_PHASES=compile configure info install postinst postrm prepare setup test
 DEPEND=app-emacs/org-mode app-emacs/request app-emacs/seq app-emacs/emojify app-emacs/async-http-queue
 DESCRIPTION=An Org-social client
 EAPI=8
-HOMEPAGE=https://github.com/tanrax/org-social.el
+HOMEPAGE=https://git.andros.dev/org-social/org-social.el
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
 RDEPEND=app-emacs/org-mode app-emacs/request app-emacs/seq app-emacs/emojify app-emacs/async-http-queue >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/org-social-2.13.tar
+SRC_URI=https://stable.melpa.org/packages/org-social-2.18.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=cb531cfafec1a618644fd15d758eb503
+_md5_=9a1548b4d87ff0d737646988d661cffb
