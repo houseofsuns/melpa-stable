@@ -5,20 +5,18 @@ EAPI=8
 
 REPO_URI="https://stable.melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="mw-thesaurus"
+REALNAME="perl-live"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Merriam-Webster Thesaurus"
+DESCRIPTION="[No description available]"
 
-HOMEPAGE="https://github.com/agzam/mw-thesaurus.el"
+HOMEPAGE="https://github.com/vividsnow/perl-live"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/request
-	app-emacs/dash"
-RDEPEND="app-emacs/request
-	app-emacs/dash"
+DEPEND=""
+RDEPEND=""
