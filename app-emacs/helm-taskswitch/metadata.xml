@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Use helm to switch windows and buffers</longdescription>
+	<longdescription>Use helm to switch windows, browser tabs and buffers</longdescription>
 </pkgmetadata>

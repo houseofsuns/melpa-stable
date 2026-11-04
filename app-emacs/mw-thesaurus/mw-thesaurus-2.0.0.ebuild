@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Merriam-Webster Thesaurus"
+DESCRIPTION="Merriam-Webster Thesaurus and Dictionary"
 
 HOMEPAGE="https://github.com/agzam/mw-thesaurus.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

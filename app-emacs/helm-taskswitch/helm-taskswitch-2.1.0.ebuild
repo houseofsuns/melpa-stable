@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Use helm to switch windows and buffers"
+DESCRIPTION="Use helm to switch windows, browser tabs and buffers"
 
 HOMEPAGE="https://github.com/bdc34/helm-taskswitch"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,5 +18,7 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/helm"
-RDEPEND="app-emacs/helm"
+DEPEND="app-emacs/helm
+	app-emacs/websocket"
+RDEPEND="app-emacs/helm
+	app-emacs/websocket"
