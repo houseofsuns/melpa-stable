@@ -19,6 +19,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/transient
+	app-emacs/org-mode
 	app-emacs/csv-mode"
 RDEPEND="app-emacs/transient
+	app-emacs/org-mode
 	app-emacs/csv-mode"
