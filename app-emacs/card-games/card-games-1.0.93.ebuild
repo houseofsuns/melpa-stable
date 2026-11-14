@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Play card games in Emacs (console + SVG)"
+DESCRIPTION="Play card games (console + SVG)"
 
 HOMEPAGE="https://code.bru.st/corwin/card-game.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
