@@ -21,10 +21,8 @@ KEYWORDS="~amd64 ~x86"
 DEPEND="app-emacs/async
 	app-emacs/f
 	app-emacs/logito
-	app-emacs/pcache
-	app-emacs/stream"
+	app-emacs/pcache"
 RDEPEND="app-emacs/async
 	app-emacs/f
 	app-emacs/logito
-	app-emacs/pcache
-	app-emacs/stream"
+	app-emacs/pcache"
