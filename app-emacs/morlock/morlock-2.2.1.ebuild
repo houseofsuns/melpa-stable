@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="More font-lock keywords for elisp"
 
-HOMEPAGE="https://github.com/tarsius/morlock"
+HOMEPAGE="https://github.com/emacsattic/morlock"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
