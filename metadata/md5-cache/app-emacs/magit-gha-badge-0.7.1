@@ -1,12 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Pure Elisp MySQL wire protocol client
+DEPEND=app-emacs/magit app-emacs/ghub
+DESCRIPTION=GitHub Actions status badge in the magit status buffer
 EAPI=8
-HOMEPAGE=https://github.com/LuciusChen/mysql.el
+HOMEPAGE=https://github.com/agzam/magit-gha-badge.el
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=>=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/magit app-emacs/ghub >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://stable.melpa.org/packages/mysql-0.2.5.tar
+SRC_URI=https://stable.melpa.org/packages/magit-gha-badge-0.7.1.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=910a76db77227e1563dd265cf16cafc9
+_md5_=4f207de08e56937d260bf9a315b3ee91
